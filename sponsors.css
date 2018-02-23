@@ -1,0 +1,158 @@
+/*Sponsors List*/
+
+.sponsorstitle {
+    font-size: 20px;
+    position: relative;
+    font-weight: lighter;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+  }
+  
+  .sponsorstitle h1 {
+    color:navy;
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+  }
+  
+  .sponsors {
+    position: relative;
+    text-align: center;
+  }
+  
+  .sponsors ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+  }
+  
+  .sponsors ul li {
+    display: inline-block;
+  }
+  
+  #box1 {
+    width: 450px;
+    height: 175px;
+    background: url(logo.png);
+    background-size: cover;
+    overflow: hidden;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box2 {
+    width: 175px;
+    height: 175px;
+    background: url(salon.png);
+    background-color: white;
+    background-size: 175px 175px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box3 {
+    width: 175px;
+    height: 175px;
+    background: url(kaya2.png);
+    background-size: cover;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box4 {
+    width: 175px;
+    height: 175px;
+    background: url(alt=Play360);
+    background-color: white;
+    background-size: 175px 175px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 5px;
+    background-position: 0px 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box5 {
+    width: 175px;
+    height: 175px;
+    background: url(coderdojo.png);
+    background-color: white;
+    background-size: 175px 175px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 5px;
+    background-position: 0px 25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box6 {
+
+    width: 175px;
+    height: 175px;
+    background: url(coderdojo.png);
+    background-size: cover;
+    overflow: hidden;
+    margin: 5px;
+
+    display:block;
+    margin-left: 140px;
+    margin-right: 3px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+  }
+  
+  #box7 {
+  
+    width: 175px;
+    height: 175px;
+    background: url(raspberryPi.png);
+    background-size: cover;
+    overflow: hidden;
+    margin: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);}
+  
+  #box8 {
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    overflow: hidden;
+    margin: 5px;
+  }
+  
+  #overlay {
+    background: rgba(0, 0, 0, .75);
+    text-align: center;
+    padding: 60px 0 100px 0;
+    opacity: 0;
+    margin-top: auto;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+  }
+  
+  .sponsors a {
+    text-decoration: none;
+  }
+  
+  #name {
+    font-weight: lighter;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    color: rgba(255, 255, 255, .85);
+    font-size: 10px;
+  }
+  
+  #box1:hover #overlay,
+  #box2:hover #overlay,
+  #box3:hover #overlay,
+  #box4:hover #overlay,
+  #box5:hover #overlay,
+  #box6:hover #overlay,
+  #box7:hover #overlay {
+    opacity: 1;
+  }
